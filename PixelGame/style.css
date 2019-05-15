@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+}
+body{
+	background-color: skyblue;
+	color: red;
+}
+#art{
+	
+  display:table;
+  border:2px solid black;
+  border-spacing : 1px;
+  background-color:black;
+} /* table css property */
+.row{
+  display:table-row;
+} /*display row */
+.pixcel{
+  display:table-cell;
+  background-color:white;
+  width:40px;
+  height:40px;
+} /* create cell to fill color*/
+.pen{ 
+  display:inline-block;
+  width:40px;
+  height:40px;
+  border: 2px solid black;
+ 
+}  /* create pen to select different color from palette */
+  
